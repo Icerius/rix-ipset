@@ -1,8 +1,8 @@
 # RIX IPSet
-This script populates an ipset with the icelandi ip numbers from RIX. One ipset contains the IPv4 and the other contains the IPv6.
-If the either ipset does not exist it is ignored.
+This script populates an ipset with the ip numbers from RIX. One ipset contains IPv4 and the other contains IPv6.
+If either ipset does not exist it is ignored.
 
-## Setup on linux 
+## Setup on Linux 
 ```bash
 chmod 0700 rix-ipset.sh
 ipset create rixv4
